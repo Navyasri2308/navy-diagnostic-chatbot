@@ -40,22 +40,22 @@ navy-diagnostic-chatbot/
 └── wsgi.py                # Server gateway deployment entry point  
 ```
 
-###2. Install Project Dependencies
+### 2. Install Project Dependencies
 Open your choice of terminal application (Command Prompt or PowerShell) inside your root workspace directory and install the necessary dependencies via pip:
 
 Bash
 pip install -r requirements.txt
 
-###3. Launch the Backend Server Application
+### 3. Launch the Backend Server Application
 Run the Python file to spin up the local Flask web app environment:
 
 Bash
 python app.py
 
-###4. Open the Interface Workspace
+### 4. Open the Interface Workspace
 Simply double-click your index.html file or right-click and select Open with Live Server inside your web browser to open the chat layout panel.
 
-##⚖️ Navigated Engineering Tradeoff
+## ⚖️ Navigated Engineering Tradeoff
 Accuracy & Security vs. Conversational Fluency
 The Tradeoff: We chose a strict programmatic text retrieval system over an unconstrained, generative large language model framework (like raw, ungrounded generative AI models).
 
