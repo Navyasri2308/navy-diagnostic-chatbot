@@ -37,7 +37,8 @@ navy-diagnostic-chatbot/
 ├── index.html             # Responsive engineering UI dashboard
 ├── style.css              # Dashboard formatting stylesheet
 ├── requirements.txt       # Active application package registry
-└── wsgi.py                # Server gateway deployment entry point
+└── wsgi.py                # Server gateway deployment entry point  
+```
 
 ###2. Install Project Dependencies
 Open your choice of terminal application (Command Prompt or PowerShell) inside your root workspace directory and install the necessary dependencies via pip:
