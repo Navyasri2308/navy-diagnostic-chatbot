@@ -1,0 +1,623 @@
+1. Who is the father of the Indian Navy?
+Chhatrapati Shivaji Maharaj is regarded as the Father of the Indian Navy for his visionary creation of a naval fleet to protect maritime borders.
+
+2. When is Navy Day in India?
+December 4th, commemorating Operation Trident in 1971.
+
+3. What is the Indian Navy motto?
+"Sam no Varunah" (May the Lord of Water be auspicious unto us).
+
+4. What is an Aircraft Carrier?
+A warship serving as a mobile airbase with a full-length flight deck for launching and recovering aircraft.
+
+5. Name India's active aircraft carriers.
+INS Vikramaditya and the indigenous INS Vikrant.
+
+6. What is a Stealth Frigate?
+A versatile warship designed with radar-evading hull profiles for multi-mission tasks.
+
+7. What is a Destroyer?
+A fast, high-endurance warship equipped with heavy guided missile matrices for battle group defense.
+
+8. What is the function of the Andaman and Nicobar Command?
+It is India's first integrated tri-services command combining Army, Navy, and Air Force assets.
+
+9. What is the role of MARCOS?
+They are the elite special forces of the Indian Navy trained for maritime counter-terrorism and amphibious warfare.
+
+10. What is the significance of Operation Trident?
+A successful 1971 anti-ship attack on Karachi harbor using anti-ship missiles.
+
+11. LM2500 high-pressure turbine vibration limit?
+Operational limits are below 2.0 mils; anomalies start at 2.5 mils.
+
+12. Protocol for LM2500 vibration over 2.5 mils?
+Reduce shaft RPM, engage auxiliary cooling, and inspect compressor blades for damage.
+
+13. Causes of SPY-6 radar thermal overload?
+Coolant flow dropping below 45 GPM.
+
+14. MK 41 VLS deluge activation trigger?
+Module temperature sensors exceeding 70 degrees Celsius.
+
+15. How to troubleshoot MK 41 deluge valve failure?
+Test solenoid voltage, check water supply pressure, and verify manual override status.
+
+16. Degaussing purpose?
+Neutralizes the ship's magnetic signature to prevent magnetic mine detonation.
+
+17. How to fix CPP (Controllable Pitch Propeller) loss of pressure?
+Lock shaft pitch, switch to backup pump, and check cylinder seals.
+
+18. What is cavitation?
+The formation of propeller bubbles leading to structural pitting and acoustic noise.
+
+19. How to detect cavitation?
+By monitoring hull vibration and passive sonar noise signatures.
+
+20. Bilge pump diagnostic check?
+Verify suction lines and float switch operation.
+
+21. Gas turbine fuel pressure drop cause?
+Clogged filter or failing fuel lift pump.
+
+22. Degaussing panel error fix?
+Check current output for impedance mismatches.
+
+23. Auxiliary cooling pump criteria?
+Engage during high-load operations to prevent gas turbine thermal runaway.
+
+24. Sonar dome biofouling impact?
+Attenuates acoustic signals; requires physical hull inspection.
+
+25. Reduction gearbox function?
+Steps down high turbine RPM to optimal propeller rotation speeds.
+
+26. Radar waveguide noise troubleshooting?
+Inspect for loose connections or moisture ingress.
+
+27. Integrated electric propulsion concept?
+Diesel or gas generators produce power for propulsion motors.
+
+28. Saltwater in fuel impact?
+Causes nozzle erosion and engine combustion instability.
+
+29. Bearing wear diagnostic sign?
+Increased acoustic noise and vibration frequencies.
+
+30. Shaft seal leak indication?
+Water ingress at the propeller shaft entry point.
+
+31. Degaussing coil calibration?
+Adjust current based on the ship's magnetic heading.
+
+32. MK 41 VLS launch sequence failure cause?
+Connector pin environmental corrosion.
+
+33. SPY-6 coolant manifold air lock fix?
+Open bleed valves at the highest point of the loop.
+
+34. Oily water separator purpose?
+Cleans bilge water before overboard discharge.
+
+35. Turbine inlet temperature limit impact?
+Exceeding limits causes permanent blade distortion and engine failure.
+
+36. Fire main pressure loss diagnostic?
+Check fire pump breakers and suction strainers.
+
+37. Loose turbine mounting bolts impact?
+Excessive casing vibration during acceleration.
+
+38. Fire main deluge valve testing?
+Use headers to verify full actuator travel.
+
+39. Air-independent propulsion technology?
+Uses fuel cells or Stirling engines for underwater stealth.
+
+40. Radar signal ghosting cause?
+Internal interference or external jamming.
+
+41. Rudder actuator pressure loss fix?
+Check hydraulic fluid and servo valve solenoids.
+
+42. Turbine oil filter bypass condition?
+Pressure differential exceeding 15 PSI.
+
+43. Sea chest cleaning?
+Backflushing the hull inlet for cooling water intake.
+
+44. Propeller pitch sticking cause?
+Wear in the pitch control cylinder seals.
+
+45. Digital vibration analyzer usage?
+Converts mechanical motion into frequency spectra for fault detection.
+
+46. Turbine compressor blade cleaning?
+Injecting chemical solutions during idle RPM.
+
+47. Lube oil moisture impact?
+Causes corrosion in turbine bearings; requires purification.
+
+48. High exhaust gas temperature indicator?
+Reduces turbine service life and indicates component damage.
+
+49. Radar transmitter arcing cause?
+Carbon tracking on high-voltage insulators.
+
+50. Generator synchronization failure?
+Frequency or phase does not match before closing the breaker.
+
+51. Shaft grounding brush purpose?
+Prevents corrosion caused by stray electrical currents.
+
+52. Gas management system purpose?
+Vents hot missile exhaust safely through dedicated deck ducts.
+
+53. Cooling tower scale buildup resolution?
+Periodic chemical acid flushing.
+
+54. Hydraulic fluid emulsification diagnostic?
+High water content; requires filtration.
+
+55. Turbine seal air leakage impact?
+Reduces thermodynamic efficiency and increases overheating risk.
+
+56. Radar power supply ripple diagnostic?
+Check capacitor health with an oscilloscope.
+
+57. Cathodic protection system purpose?
+Uses sacrificial anodes to prevent hull corrosion.
+
+58. Sacrificial anode replacement?
+Performed when visual inspection shows significant surface exhaustion.
+
+59. Turbine start failure diagnostic?
+Check igniter spark and fuel solenoid sequencing.
+
+60. Automatic bus transfer (ABT) purpose?
+Switches ship power to emergency generators during main failure.
+
+61. Propulsion motor overheating cause?
+Cooling fan failure or winding shorts.
+
+62. Winding insulation resistance check?
+Use a Megger meter to detect shorts.
+
+63. Radar cooling loop corrosion cause?
+Low coolant inhibitor concentrations.
+
+64. Reduction gear vibration indication?
+Early-stage tooth fatigue in gear sets.
+
+65. Thrust bearing function?
+Handles axial force from propellers; fails if load is misaligned.
+
+66. Shaft alignment method?
+Use laser tools for precision centering.
+
+67. Turbine fuel nozzle clogging identification?
+EGT spreads across combustion chambers.
+
+68. Fuel nozzle cleaning?
+Ultrasonic cleaning tank processes.
+
+69. EGT spread definition?
+The temperature difference between turbine outlet thermocouples.
+
+70. Radar antenna pedestal motor failure cause?
+Worn carbon brushes or drive gear damage.
+
+71. Synchro motor function?
+Positions radar antennas; checked for feedback signal alignment.
+
+72. Turbine secondary cooling loop failure cause?
+Leaks in plate heat exchangers.
+
+73. Plate heat exchanger testing?
+Pressure test fluid sides independently.
+
+74. Low coolant inhibitor impact?
+Galvanic corrosion of internal cooling jackets.
+
+75. Radar display noise indication?
+Loose video cable shielding or connector oxidation.
+
+76. Fiber optic sensor usage?
+Monitors hull stress; tested with an OTDR.
+
+77. Turbine flameout triggers?
+Water ingestion or fuel pressure instability.
+
+78. Purging water from fuel?
+Use high-speed centrifuge separators.
+
+79. Fuel centrifuging principle?
+Rotation to separate contaminants based on density.
+
+80. Radar pulse repetition frequency verification?
+Check clock oscillator stability.
+
+81. Emergency fire pump testing?
+Manual run-tests under operational loads.
+
+82. Shaft speed feedback significance?
+Critical for turbine electronic control governing.
+
+83. Speed sensor noise removal?
+Check cable shielding and proximity sensor gaps.
+
+84. High bilge temperature indication?
+Potential fuel oil system hazards nearby.
+
+85. Rudder angle indicator drift correction?
+Calibrate to physical rudder position.
+
+86. Turbine start-up smoke cause?
+Excess fuel during the cranking phase.
+
+87. Start-up smoke reduction?
+Adjust the fuel control unit start-ramp.
+
+88. Radar power amplifier bias verification?
+Measure DC voltage at the transistor base.
+
+89. Exhaust oxygen sensor function?
+Monitor combustion efficiency; trigger warnings if faulty.
+
+90. Synthetic turbine oil advantage?
+Prevents breakdown under extreme heat loads.
+
+91. Oil sludge identification?
+Laboratory chemical analysis of oil samples.
+
+92. Fuel flow meter calibration?
+Measure actual fluid volume through the line.
+
+93. Gyro drift correction?
+Re-align with celestial or GPS references.
+
+94. Cooling fan vibration cause?
+Dust accumulation on fan blades.
+
+95. Balancing rotating equipment?
+Add test weights to counteract mass imbalance.
+
+96. What is the National War Memorial located?
+The National War Memorial is located in New Delhi, honoring all Indian Armed Forces personnel.
+
+97. Who is the Supreme Commander of Indian Armed Forces?
+The President of India is the Supreme Commander.
+
+98. Who is the Chief of the Naval Staff?
+The Chief of the Naval Staff is the operational head of the Indian Navy.
+
+99. What is the new naval ensign inspired by?
+The royal seal of Chhatrapati Shivaji Maharaj.
+
+100. Where is the Western Naval Command headquartered?
+Mumbai, Maharashtra.
+
+101. Where is the Eastern Naval Command headquartered?
+Visakhapatnam, Andhra Pradesh.
+
+102. Where is the Southern Naval Command headquartered?
+Kochi, Kerala.
+
+103. What is the BrahMos missile speed?
+It travels at speeds up to Mach 3.
+
+104. What is a Close-In Weapon System (CIWS)?
+A radar-guided gun system used as a last line of defense.
+
+105. What is the Barak-8 missile system?
+A long-range surface-to-air missile defense system.
+
+106. What is Phased Array Radar?
+A radar that uses computer-controlled antennas to steer the beam electronically.
+
+107. What is Naval Chaff?
+A countermeasure of aluminum strips used to create false radar signatures.
+
+108. What is the Varunastra Torpedo?
+An indigenous electric-powered anti-submarine torpedo.
+
+109. What is a Railgun?
+An experimental electromagnetic weapon launching projectiles at hypersonic speeds.
+
+110. What is Electronic Warfare?
+Intercepting, jamming, or deceiving enemy signals.
+
+111. What is the Kavach system?
+An indigenous chaff launcher for surface ships.
+
+112. What is a Nuclear Propulsion Loop?
+A reactor that generates heat to create steam for propulsion turbines.
+
+113. What is CODAG propulsion?
+Combined Diesel and Gas turbine propulsion.
+
+114. What is COGAG propulsion?
+Combined Gas and Gas turbine propulsion.
+
+115. What is the function of Deperming?
+The process of reducing a warship's magnetic signature.
+
+116. What is the motto of MARCOS?
+"The Few The Fearless".
+
+117. What is the P-8I Neptune aircraft role?
+Maritime patrol and anti-submarine warfare.
+
+118. What is the MH-60R Seahawk helicopter role?
+Anti-submarine and anti-surface warfare.
+
+119. What are Sea Guardian Drones?
+UAVs used for long-endurance intelligence gathering.
+
+120. What is the Kamov Ka-31?
+A helicopter used for Airborne Early Warning (AEW).
+
+121. What is the HAL Dhruv?
+An indigenous utility helicopter used for logistics and search and rescue.
+
+122. What is Sea Control?
+Establishing dominance over a maritime zone.
+
+123. What is Power Projection?
+Deploying military force far from home territory using carriers.
+
+1. LM2500 high-pressure turbine vibration limit?
+Operational limits are below 2.0 mils; anomalies start at 2.5 mils.
+
+2. Protocol for LM2500 vibration over 2.5 mils?
+Reduce shaft RPM, engage auxiliary cooling, and inspect compressor blades for damage.
+
+3. Causes of SPY-6 radar thermal overload?
+Coolant flow dropping below 45 GPM.
+
+4. MK 41 VLS deluge activation trigger?
+Module temperature sensors exceeding 70 degrees Celsius.
+
+5. How to troubleshoot MK 41 deluge valve failure?
+Test solenoid voltage, check water supply pressure, and verify manual override status.
+
+6. Degaussing purpose?
+Neutralizes the ship's magnetic signature to prevent magnetic mine detonation.
+
+7. How to fix CPP (Controllable Pitch Propeller) loss of pressure?
+Lock shaft pitch, switch to backup pump, and check cylinder seals.
+
+8. What is cavitation?
+The formation of propeller bubbles leading to structural pitting and acoustic noise.
+
+9. How to detect cavitation?
+By monitoring hull vibration and passive sonar noise signatures.
+
+10. Bilge pump diagnostic check?
+Verify suction lines and float switch operation.
+
+11. Gas turbine fuel pressure drop cause?
+Clogged filter or failing fuel lift pump.
+
+12. Degaussing panel error fix?
+Check current output for impedance mismatches.
+
+13. Auxiliary cooling pump criteria?
+Engage during high-load operations to prevent gas turbine thermal runaway.
+
+14. Sonar dome biofouling impact?
+Attenuates acoustic signals; requires physical hull inspection.
+
+15. Reduction gearbox function?
+Steps down high turbine RPM to optimal propeller rotation speeds.
+
+16. Radar waveguide noise troubleshooting?
+Inspect for loose connections or moisture ingress.
+
+17. Integrated electric propulsion concept?
+Diesel or gas generators produce power for propulsion motors.
+
+18. Saltwater in fuel impact?
+Causes nozzle erosion and engine combustion instability.
+
+19. Bearing wear diagnostic sign?
+Increased acoustic noise and vibration frequencies.
+
+20. Shaft seal leak indication?
+Water ingress at the propeller shaft entry point.
+
+21. Degaussing coil calibration?
+Adjust current based on the ship's magnetic heading.
+
+22. MK 41 VLS launch sequence failure cause?
+Connector pin environmental corrosion.
+
+23. SPY-6 coolant manifold air lock fix?
+Open bleed valves at the highest point of the loop.
+
+24. Oily water separator purpose?
+Cleans bilge water before overboard discharge.
+
+25. Turbine inlet temperature limit impact?
+Exceeding limits causes permanent blade distortion and engine failure.
+
+26. Fire main pressure loss diagnostic?
+Check fire pump breakers and suction strainers.
+
+27. Loose turbine mounting bolts impact?
+Excessive casing vibration during acceleration.
+
+28. Fire main deluge valve testing?
+Use headers to verify full actuator travel.
+
+29. Air-independent propulsion technology?
+Uses fuel cells or Stirling engines for underwater stealth.
+
+30. Radar signal ghosting cause?
+Internal interference or external jamming.
+
+31. Rudder actuator pressure loss fix?
+Check hydraulic fluid and servo valve solenoids.
+
+32. Turbine oil filter bypass condition?
+Pressure differential exceeding 15 PSI.
+
+33. Sea chest cleaning?
+Backflushing the hull inlet for cooling water intake.
+
+34. Propeller pitch sticking cause?
+Wear in the pitch control cylinder seals.
+
+35. Digital vibration analyzer usage?
+Converts mechanical motion into frequency spectra for fault detection.
+
+36. Turbine compressor blade cleaning?
+Injecting chemical solutions during idle RPM.
+
+37. Lube oil moisture impact?
+Causes corrosion in turbine bearings; requires purification.
+
+38. High exhaust gas temperature indicator?
+Reduces turbine service life and indicates component damage.
+
+39. Radar transmitter arcing cause?
+Carbon tracking on high-voltage insulators.
+
+40. Generator synchronization failure?
+Frequency or phase does not match before closing the breaker.
+
+41. Shaft grounding brush purpose
+Prevents corrosion caused by stray electrical currents.
+
+42. Gas management system purpose?
+Vents hot missile exhaust safely through dedicated deck ducts.
+
+43. Cooling tower scale buildup resolution?
+Periodic chemical acid flushing.
+
+44. Hydraulic fluid emulsification diagnostic?
+High water content; requires filtration.
+
+45. Turbine seal air leakage impact?
+Reduces thermodynamic efficiency and increases overheating risk.
+
+46. Radar power supply ripple diagnostic?
+Check capacitor health with an oscilloscope.
+
+47. Cathodic protection system purpose?
+Uses sacrificial anodes to prevent hull corrosion.
+
+48. Sacrificial anode replacement?
+Performed when visual inspection shows significant surface exhaustion.
+
+49. Turbine start failure diagnostic?
+Check igniter spark and fuel solenoid sequencing.
+
+50. Automatic bus transfer (ABT) purpose?
+Switches ship power to emergency generators during main failure.
+
+51. Propulsion motor overheating cause?
+Cooling fan failure or winding shorts.
+
+52. Winding insulation resistance check?
+Use a Megger meter to detect shorts.
+
+53. Radar cooling loop corrosion cause?
+Low coolant inhibitor concentrations.
+
+54. Reduction gear vibration indication?
+Early-stage tooth fatigue in gear sets.
+
+55. Thrust bearing function?
+Handles axial force from propellers; fails if load is misaligned.
+
+56. Shaft alignment method?
+Use laser tools for precision centering.
+
+57. Turbine fuel nozzle clogging identification?
+EGT spreads across combustion chambers.
+
+58. Fuel nozzle cleaning?
+Ultrasonic cleaning tank processes.
+
+59. EGT spread definition?
+The temperature difference between turbine outlet thermocouples.
+
+60. Radar antenna pedestal motor failure cause?
+Worn carbon brushes or drive gear damage.
+
+61. Synchro motor function?
+Positions radar antennas; checked for feedback signal alignment.
+
+62. Turbine secondary cooling loop failure cause?
+Leaks in plate heat exchangers.
+
+63. Plate heat exchanger testing?
+Pressure test fluid sides independently.
+
+64. Low coolant inhibitor impact?
+Galvanic corrosion of internal cooling jackets.
+
+65. Radar display noise indication?
+Loose video cable shielding or connector oxidation.
+
+66. Fiber optic sensor usage?
+Monitors hull stress; tested with an OTDR.
+
+67. Turbine flameout triggers?
+Water ingestion or fuel pressure instability.
+
+68. Purging water from fuel?
+Use high-speed centrifuge separators.
+
+69. Fuel centrifuging principle?
+Rotation to separate contaminants based on density.
+
+70. Radar pulse repetition frequency verification?
+Check clock oscillator stability.
+
+71. Emergency fire pump testing?
+Manual run-tests under operational loads.
+
+72. Shaft speed feedback significance?
+Critical for turbine electronic control governing.
+
+73. Speed sensor noise removal?
+Check cable shielding and proximity sensor gaps.
+
+74. High bilge temperature indication?
+Potential fuel oil system hazards nearby.
+
+75. Rudder angle indicator drift correction?
+Calibrate to physical rudder position.
+
+76. Turbine start-up smoke cause?
+Excess fuel during the cranking phase.
+
+77. Start-up smoke reduction?
+Adjust the fuel control unit start-ramp.
+
+78. Radar power amplifier bias verification?
+Measure DC voltage at the transistor base.
+
+79. Exhaust oxygen sensor function?
+Monitor combustion efficiency; trigger warnings if faulty.
+
+80. Synthetic turbine oil advantage?
+Prevents breakdown under extreme heat loads.
+
+81. Oil sludge identification?
+Laboratory chemical analysis of oil samples.
+
+82. Fuel flow meter calibration?
+Measure actual fluid volume through the line.
+
+83. Gyro drift correction?
+Re-align with celestial or GPS references.
+
+84. Cooling fan vibration cause?
+Dust accumulation on fan blades.
+
+85. Balancing rotating equipment?
+Add test weights to counteract mass imbalance.
