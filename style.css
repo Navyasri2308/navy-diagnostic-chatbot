@@ -1,0 +1,528 @@
+:root {
+    --bg-dark-core: #0F172A;
+    --bg-utility-bar: #1E293B;
+    --bg-panel-surface: #1E293B;
+    --border-cyan-glow: #38BDF8;
+    --accent-neon-green: #0ea5e9;
+    --text-primary-white: #FFFFFF;
+    --text-muted-blue: #94A3B8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+    background-color: var(--bg-dark-core);
+    color: var(--text-primary-white);
+    padding-bottom: 60px;
+}
+
+/* ==================== 1. UTILITY TOP BAR ==================== */
+.global-utility-bar {
+    background-color: var(--bg-utility-bar);
+    width: 100%;
+    height: 38px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 40px;
+    border-bottom: 1px solid #334155;
+    font-size: 0.85rem;
+}
+
+.utility-right-group {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.nav-link-item {
+    color: var(--text-muted-blue);
+    cursor: pointer;
+}
+.nav-link-item:hover { color: var(--text-primary-white); }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background: none;
+    border: none;
+    color: var(--text-muted-blue);
+    font-size: 0.85rem;
+    cursor: pointer;
+    padding: 5px 0;
+}
+
+.dropdown:hover .dropbtn, .dropbtn:hover {
+    color: var(--text-primary-white);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #1e293b;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.5);
+    z-index: 100;
+    border: 1px solid #334155;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.dropdown-content a {
+    color: var(--text-primary-white);
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 0.9rem;
+}
+
+.dropdown-content a:hover {
+    background-color: #334155;
+    color: var(--border-cyan-glow);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* ==================== 2. HEADER ==================== */
+.tactical-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #0f172a;
+    border-bottom: 1px solid #1e293b;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.anchor-icon { font-size: 1.6rem; color: var(--border-cyan-glow); }
+.tactical-header h1 { font-size: 1.25rem; font-weight: 700; letter-spacing: 0.5px; }
+
+.header-action-buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.btn-primary {
+    background-color: #ff9900;
+    color: #000000;
+    border: none;
+    font-weight: bold;
+    padding: 8px 18px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn-primary:hover { background-color: #ec8a00; }
+
+.btn-secondary {
+    background: none;
+    border: 1px solid var(--text-muted-blue);
+    color: var(--text-primary-white);
+    padding: 8px 18px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn-secondary:hover { background-color: #1e293b; }
+
+/* ==================== 3. MAIN DASHBOARD PANELS ==================== */
+.dashboard-container {
+    max-width: 1400px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.hero-graphic-frame {
+    position: relative;
+    width: 100%;
+    height: 380px;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.hero-image { width: 100%; height: 100%; object-fit: cover; }
+.image-overlay-vignette {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: linear-gradient(90deg, rgba(15,23,42,0.95) 30%, rgba(15,23,42,0.4) 100%);
+}
+
+.hero-text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 60px;
+    transform: translateY(-50%);
+    max-width: 550px;
+    z-index: 5;
+}
+
+.hero-text-overlay h2 { font-size: 2.2rem; line-height: 1.2; margin-bottom: 15px; font-weight: 800; }
+.hero-text-overlay p { color: var(--text-muted-blue); margin-bottom: 25px; line-height: 1.6; }
+
+.hero-cta-btn {
+    background-color: var(--accent-neon-green);
+    color: white; border: none; font-weight: bold; padding: 14px 28px; border-radius: 6px; cursor: pointer;
+}
+
+.workspace-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.panel-card { background-color: var(--bg-panel-surface); padding: 30px; border-radius: 8px; border: 1px solid #334155; }
+.text-center { text-align: center; }
+
+/* ==================== 4. FLOATING CHAT WIDGET ==================== */
+.floating-chat-container {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 1000;
+}
+
+.chat-trigger-icon {
+    background-color: #232f3e;
+    color: white;
+    border: 1px solid #44556e;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    position: relative;
+}
+
+.notification-badge {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    background-color: #d9381e;
+    color: white;
+    font-size: 0.75rem;
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat-speech-bubble {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    padding: 15px;
+    border-radius: 8px;
+    width: 280px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+.bubble-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 0.85rem;
+    margin-bottom: 8px;
+    color: var(--border-cyan-glow);
+}
+.bubble-header button { background: none; border: none; color: white; cursor: pointer; font-size: 1.1rem; }
+.chat-speech-bubble p { font-size: 0.85rem; line-height: 1.4; color: #c9d1d9; }
+
+.chatbot-window {
+    position: fixed;
+    bottom: 100px;
+    right: 25px;
+    width: 360px;
+    height: 450px;
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 12px;
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+    z-index: 1001;
+}
+
+.chat-window-header {
+    background-color: #21262d;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #30363d;
+}
+.chat-window-header h3 { font-size: 0.95rem; color: var(--border-cyan-glow); }
+.chat-window-header button { background: none; border: none; color: white; cursor: pointer; }
+
+.chat-window-body { flex: 1; padding: 15px; overflow-y: auto; display: flex; flex-direction: column; }
+.bot-msg { background-color: #21262d; padding: 10px 14px; border-radius: 8px; font-size: 0.9rem; max-width: 85%; line-height: 1.4; margin: 5px 0; }
+
+.chat-window-footer { padding: 12px; border-top: 1px solid #30363d; background-color: #0d1117; }
+/* Target the form wrapper inside the footer */
+.chat-window-footer form {
+    width: 100%;
+    display: flex;
+    margin: 0;
+}
+
+/* The sleek, rounded input field slot */
+#chat-input {
+    width: 100%;
+    padding: 12px 16px;
+    background-color: #11151a; /* Premium dark interior slot background */
+    border: 1px solid #4a5568;  /* Subtle grey contour border */
+    border-radius: 8px;         /* Elegant rounded corners */
+    color: #ffffff;
+    font-size: 14px;
+    outline: none;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease;
+}
+
+/* Highlights the border glow when clicked active */
+#chat-input:focus {
+    border-color: #38bdf8;      /* Changes to match your theme's cyan glow color */
+}
+
+/* Dim text style for the placeholder hint */
+#chat-input::placeholder {
+    color: #718096;
+    font-style: italic;
+}
+/* ==================== 5. MODAL OVERLAY ==================== */
+.modal-overlay {
+    position: fixed;
+    top:0; left:0; width:100%; height:100%;
+    background-color: rgba(0,0,0,0.6);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+}
+.modal-box {
+    background-color: var(--bg-panel-surface);
+    padding: 30px;
+    border-radius: 8px;
+    width: 400px;
+    border: 1px solid #334155;
+    text-align: center;
+}
+.modal-box h3 { margin-bottom: 12px; color: var(--border-cyan-glow); }
+.modal-box p { font-size: 0.9rem; color: var(--text-muted-blue); margin-bottom: 20px; }
+.custom-input { width:100%; padding:10px; background-color: var(--bg-dark-core); border:1px solid #334155; color:white; border-radius:4px; }
+.modal-actions { display: flex; gap: 10px; justify-content: center; }
+/* Modern Split-Screen Hero Setup */
+.hero-graphic-frame {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 40px;
+    background: #091124; /* Solid premium navy backdrop */
+    border-radius: 12px;
+    margin: 20px auto;
+    max-width: 1200px;
+    gap: 40px;
+    position: relative;
+}
+
+/* Adjust the text spacing on the left side */
+.hero-text-overlay {
+    flex: 1.2;
+    position: relative;
+    text-align: left;
+}
+
+/* Beautiful framed bounding box for your image */
+.hero-graphic-card {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Keeps the picture small, sharp, and bordered */
+.hero-image {
+    width: 100%;
+    max-width: 420px; /* Limits the size exactly how you wanted */
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+    border: 2px solid rgba(56, 189, 248, 0.2); /* Subtle glow */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+/* Enable smooth cursor interactions on the main dashboard cards */
+.dashboard-metrics-grid .metric-card {
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid #334155;
+}
+
+.dashboard-metrics-grid .metric-card:hover {
+    border-color: #38bdf8;
+    background-color: #1e293b;
+    transform: translateY(-4px);
+}
+
+/* Accent highlight outline when a box is actively opened */
+.dashboard-metrics-grid .metric-card.active-box {
+    border-color: #38bdf8 !important;
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%) !important;
+    box-shadow: 0 0 20px rgba(56, 189, 248, 0.25);
+}
+
+/* Master hidden display drawer framework */
+.resource-panel-drawer {
+    display: none; 
+    margin-top: 35px;
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 12px;
+    padding: 30px;
+    position: relative;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+    animation: slideDown 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.close-drawer-btn {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    background: #21262d;
+    border: 1px solid #30363d;
+    color: #c9d1d9;
+    padding: 6px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: all 0.2s;
+}
+.close-drawer-btn:hover {
+    color: white;
+    background-color: #30363d;
+    border-color: #8b949e;
+}
+
+/* Drawer layouts */
+.drawer-tab-content {
+    display: none;
+}
+.drawer-tab-content.active-content {
+    display: block;
+}
+
+.badge-tech {
+    display: inline-block;
+    background-color: rgba(56, 189, 248, 0.15);
+    color: #38bdf8;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 4px 12px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+}
+
+.drawer-tab-content h2 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+.drawer-tab-content h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 1rem;
+}
+
+.drawer-layout {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.drawer-text {
+    flex: 1.4;
+    color: #94a3b8;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+.drawer-text ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.drawer-text li {
+    margin-bottom: 8px;
+}
+
+.drawer-media {
+    flex: 1;
+    min-width: 280px;
+}
+
+/* Simulated High-Tech Interface Component Box styling */
+.mock-graphic-box {
+    width: 100%;
+    height: 240px;
+    background-color: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.terminal-header {
+    background-color: #21262d;
+    color: #94a3b8;
+    padding: 8px 15px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-family: monospace;
+    border-bottom: 1px solid #30363d;
+}
+
+.graphic-placeholder-art {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #38bdf8;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    background: radial-gradient(circle, rgba(56,189,248,0.05) 0%, rgba(0,0,0,0) 70%);
+    text-align: center;
+    padding: 10px;
+}
+
+@keyframes slideDown {
+    from { opacity: 0; transform: translateY(-15px); }
+    to { opacity: 1; transform: translateY(0); }
+}
